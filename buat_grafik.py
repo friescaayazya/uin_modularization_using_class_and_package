@@ -1,3 +1,7 @@
+"""
+Nama: Friesca
+"""
+
 import matplotlib.pyplot as plt
 
 labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
