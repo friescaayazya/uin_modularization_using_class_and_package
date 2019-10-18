@@ -12,21 +12,13 @@ def hitung_usaha(gaya, jarak) :
 #jarak = 40
 usaha = hitung_usaha(20, 40)
 
-
-
-
-nama = 'friesca ayazya'
-program = 'hitng_tekanan'
-
-print(f'{program}oleh (nama)')
-
-def hitung_tekanan(gaya, luas_penampang) :
-    tekanan = gaya / luas_penampang
-    print(f'gaya = {gaya/10}newton diperoleh dari luas penampang = {luas penampang/5}meter^2')
+def hitung_tekanan(gaya, luaspenampang) :
+    tekanan = gaya / luaspenampang
+    print(f'gaya = {gaya/10}newton diperoleh dari luaspenampang = {luaspenampang/5}meter^2')
     print(f'sehingga tekanan = {tekanan} N/m^2')
 
 #gaya = 10
-#luas penampang = 5
+#luaspenampang = 5
 tekanan = hitung_tekanan(10,5)
 
 
